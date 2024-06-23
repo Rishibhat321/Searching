@@ -1,8 +1,8 @@
 public class linear_search {
     public static boolean linearSearch(int[] arr, int x){
 
-        for(int i=0;i<arr.length;i++){
-            if(arr[i]==x){
+        for(int i : arr){
+            if(i==x){
                 return true;
             }
         }
